@@ -3,10 +3,9 @@
 #include <fstream>
 #include "Generator.h"
 
-
 class Generator {
 
-    //элементы по возрастанию
+    //elementy po vozrastaniyu
     static void lineTest1(int size, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
@@ -27,7 +26,7 @@ class Generator {
 
     }
 
-    //элементы по убыванию
+    //elementy po ubyvaniyu
     static void lineTest2(int size, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
@@ -48,7 +47,7 @@ class Generator {
 
     }
 
-    //чередующиеся возрастающие данные
+    //chereduyushiesya dannie po vozrastaniyu
     static void twoLineTest(int size, std::vector<int>& arr, bool file) {
 
         if (size % 2 != 0) {
@@ -77,13 +76,16 @@ class Generator {
 
     }
 
-    //случайные данные
-    static void randTest(int size, int value, std::vector<int>& arr, bool file) {
+    //sluchaynie dannie
+    static void randTest(int size, int max, int min, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
 
+        std::random_device rand_dev;
+        std::mt19937 generator(rand_dev());
+        std::uniform_int_distribution<> dirst(min, max);
         for (int i = 0; i < arr.size(); ++i) {
-            arr[i] = randInt(-(2 * *31), 2 * *31 - 1);
+            arr[i] = dirst(generator)
         }
 
         if (file) {
@@ -98,7 +100,7 @@ class Generator {
 
     }
 
-    //зубчатые данные
+    //zubchatie dannie
     static void zubTest(int size, std::vector<int>& arr, bool file) {
 
         if (size % 2 != 0) {
@@ -126,6 +128,4 @@ class Generator {
         }
 
     }
-
 };
-
