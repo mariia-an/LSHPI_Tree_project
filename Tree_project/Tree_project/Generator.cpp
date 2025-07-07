@@ -5,7 +5,7 @@
 
 class Generator {
 
-    //elementy po vozrastaniyu
+    //generating test data in increasing order
     static void lineTest1(int size, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
@@ -26,7 +26,7 @@ class Generator {
 
     }
 
-    //elementy po ubyvaniyu
+    //generating test data in decreasing order
     static void lineTest2(int size, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
@@ -47,7 +47,7 @@ class Generator {
 
     }
 
-    //chereduyushiesya dannie po vozrastaniyu
+    //generating test data combining two increasing blocks of elements
     static void twoLineTest(int size, std::vector<int>& arr, bool file) {
 
         if (size % 2 != 0) {
@@ -76,7 +76,7 @@ class Generator {
 
     }
 
-    //sluchaynie dannie
+    //random test data
     static void randTest(int size, int max, int min, std::vector<int>& arr, bool file) {
 
         arr.resize(size);
@@ -100,7 +100,7 @@ class Generator {
 
     }
 
-    //zubchatie dannie
+    //test data combining increasing and decreasing blocks of elements of the same length
     static void zubTest(int size, std::vector<int>& arr, bool file) {
 
         if (size % 2 != 0) {
@@ -127,5 +127,8 @@ class Generator {
             out.close();
         }
 
+    }
+    static void StressSizeTest(std::vector<int>& arr, bool file) {
+        std::vector<int> Possible_sizes = { 10 };
     }
 };

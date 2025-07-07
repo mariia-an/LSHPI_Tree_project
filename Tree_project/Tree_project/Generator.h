@@ -12,5 +12,8 @@ class Generator {
     static void randTest(int size, int value, std::vector<int>& arr, bool file);
     //zubchatie dannie
     static void zubTest(int size, std::vector<int>& arr, bool file);
+    //generating stress test data with big length 
+    static void StressSizeTest(std::vector<int>& arr, bool file);
+
 
 };
