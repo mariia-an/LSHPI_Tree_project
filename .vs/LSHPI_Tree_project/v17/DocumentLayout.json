@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\SplayTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tree_project\\Tree_project\\SplayTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tree_project\\Tree_project\\Generator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Tree_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tree_project\\Tree_project\\Tree_project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\SplayTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tree_project\\Tree_project\\SplayTree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +30,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-08T08:42:03.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SplayTree.h",
               "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\SplayTree.h",
               "RelativeDocumentMoniker": "Tree_project\\Tree_project\\SplayTree.h",
               "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\SplayTree.h",
               "RelativeToolTip": "Tree_project\\Tree_project\\SplayTree.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-07T13:46:46.749Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Generator.h",
-              "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.h",
-              "RelativeDocumentMoniker": "Tree_project\\Tree_project\\Generator.h",
-              "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.h*",
-              "RelativeToolTip": "Tree_project\\Tree_project\\Generator.h*",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-07T13:46:46.921Z",
+              "WhenOpened": "2025-07-07T13:46:46.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Generator.h",
+              "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.h",
+              "RelativeDocumentMoniker": "Tree_project\\Tree_project\\Generator.h",
+              "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.h",
+              "RelativeToolTip": "Tree_project\\Tree_project\\Generator.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-07T13:46:46.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Generator.cpp",
               "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.cpp",
               "RelativeDocumentMoniker": "Tree_project\\Tree_project\\Generator.cpp",
-              "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.cpp*",
-              "RelativeToolTip": "Tree_project\\Tree_project\\Generator.cpp*",
+              "ToolTip": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Generator.cpp",
+              "RelativeToolTip": "Tree_project\\Tree_project\\Generator.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-07T13:46:46.928Z",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Tree_project.cpp",
               "DocumentMoniker": "C:\\Users\\\u0418\u041E\u041D\\Downloads\\\u041B\u0428\u041F\u0418_2025\\LSHPI_Tree_project\\Tree_project\\Tree_project\\Tree_project.cpp",
               "RelativeDocumentMoniker": "Tree_project\\Tree_project\\Tree_project.cpp",
