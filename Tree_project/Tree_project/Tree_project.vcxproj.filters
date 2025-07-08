@@ -24,12 +24,18 @@
     <ClCompile Include="testForTest.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="B-Tree.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generator.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="SplayTree.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="B-Tree.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

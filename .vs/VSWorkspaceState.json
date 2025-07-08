@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Tree_project",
-    "\\Tree_project\\Tree_project",
-    "\\Tree_project\\Tree_project\\x64",
-    "\\Tree_project\\x64\\Debug"
+    "\\Tree_project\\Tree_project"
   ],
+  "SelectedNode": "\\Tree_project\\Tree_project\\SplayTree.h",
   "PreviewInSolutionExplorer": false
 }
