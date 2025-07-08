@@ -128,8 +128,40 @@
 
     }
 
-    void Generator::StressSizeTest(std::vector<int>& arr, bool file) {
+    void Generator::stressSizeTest(std::vector<int>& arr, bool file) {
+
         std::vector<int> Possible_sizes = { 10 };
+
     }
-};
+
+    void Generator::zubTest2(int size, std::vector<int>& arr) {
+
+        arr.resize(size);
+        int l = 1;
+        bool flag = true;
+
+        for (int i = 0; i < arr.size(); ++i) {
+            if (flag && i < l) {
+                arr[i] = l;
+                flag = false;
+            }
+            else if (!flag && i < l) {
+                arr[i] = -l;
+                flag = true;
+            }
+            l *= 2;
+            if (l > arr.size()) {
+                l = 1;
+            }
+        }
+
+        std::ofstream out;
+        out.open("C:\\Users\\Student\\Documents\\zubTest2");
+
+        for (int k = 0; k < arr.size(); ++k) {
+            out << arr[k] << " ";
+        }
+        out.close();
+
+    }
 
