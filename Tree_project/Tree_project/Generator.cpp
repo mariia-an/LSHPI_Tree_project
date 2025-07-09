@@ -112,13 +112,13 @@
             arr[i] = i;
         }
 
-        for (int i = arr.size() / 2; i < arr.size(); ++i) {
-            arr[arr.size() - i - 1] = i;
+        for (int j = arr.size() / 2 - 1; j < arr.size(); ++j) {
+            arr[j] = arr.size() - j;
         }
 
         if (file) {
             std::ofstream out;
-            out.open("C:\\Users\\Student\\Documents\\zubTest");
+            out.open("C:\\Users\\Student\\Documents\\zubTest.txt");
 
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
@@ -133,35 +133,3 @@
         std::vector<int> Possible_sizes = { 10 };
 
     }
-
-    void Generator::zubTest2(int size, std::vector<int>& arr) {
-
-        arr.resize(size);
-        int l = 1;
-        bool flag = true;
-
-        for (int i = 0; i < arr.size(); ++i) {
-            if (flag && i < l) {
-                arr[i] = l;
-                flag = false;
-            }
-            else if (!flag && i < l) {
-                arr[i] = -l;
-                flag = true;
-            }
-            l *= 2;
-            if (l > arr.size()) {
-                l = 1;
-            }
-        }
-
-        std::ofstream out;
-        out.open("C:\\Users\\Student\\Documents\\zubTest2");
-
-        for (int k = 0; k < arr.size(); ++k) {
-            out << arr[k] << " ";
-        }
-        out.close();
-
-    }
-

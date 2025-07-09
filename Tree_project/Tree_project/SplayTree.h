@@ -7,7 +7,6 @@ public:
 	NodeInt();
 	NodeInt(int n);
 	NodeInt(int value, NodeInt* l, NodeInt* r);
-	~NodeInt();
 
 	NodeInt* root;
 	NodeInt* l, * r, * parent;
@@ -35,3 +34,4 @@ public:
 	void splay(NodeInt* rootToParent, std::stack<NodeInt*>& parents);
 
 };
+

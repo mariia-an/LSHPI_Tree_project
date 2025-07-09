@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Splay_Tree.h"
+#include "SplayTree.h"
 #include <limits>
 #include <algorithm>
 
@@ -21,10 +21,6 @@ NodeInt::NodeInt(int value, NodeInt* l, NodeInt* r) {
     this->r = r;
 }
 
-NodeInt::~NodeInt() {
-    delete l;
-    delete r;
-}
 //Tree
 
 TreeInt::TreeInt() {
@@ -102,7 +98,6 @@ void TreeInt::insert(int value) {
             current_node = current_node->r;
         }
         else {
-            std::cout << "is";
             return;
         }
     }
@@ -143,12 +138,12 @@ void TreeInt::splay(NodeInt* rootToParent, std::stack<NodeInt*>& parents) {
             leftRotate(ded, (parents.empty()) ? nullptr : parents.top());
         }
         else if (flag == 0 && ded->r == parent && parent->l == rootToParent) {
-            leftRotate(parent, ded);
-            rightRotate(ded, (parents.empty()) ? nullptr : parents.top());
-        }
-        else if (flag == 0 && ded->l == parent && parent->r == rootToParent) {
             rightRotate(parent, ded);
             leftRotate(ded, (parents.empty()) ? nullptr : parents.top());
+        }
+        else if (flag == 0 && ded->l == parent && parent->r == rootToParent) {
+            leftRotate(parent, ded);
+            rightRotate(ded, (parents.empty()) ? nullptr : parents.top());
         }
         else if (flag == 1 && parent->l == rootToParent) {
             rightRotate(parent, nullptr);
@@ -243,9 +238,6 @@ bool TreeInt::erase(int value) {
         parent->r = nullptr;
     }
     delete current_node;
-
-
-    std::cout << "    " << add->value;
     return true;
 }
 
