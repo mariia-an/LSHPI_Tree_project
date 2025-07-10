@@ -25,6 +25,8 @@ public:
 	void insert(int value);
 	bool erase(int value);
 	int getRoot();
+	int height(NodeInt* root);
+	int getHeight();
 
 	NodeInt* root;
 	int value;

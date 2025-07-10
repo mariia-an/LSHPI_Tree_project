@@ -20,6 +20,7 @@
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
             }
+            out << std::endl;
             out.close();
         }
 
@@ -41,6 +42,7 @@
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
             }
+            out << std::endl;
             out.close();
         }
 
@@ -70,6 +72,7 @@
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
             }
+            out << std::endl;
             out.close();
         }
 
@@ -94,6 +97,7 @@
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
             }
+            out << std::endl;
             out.close();
         }
 
@@ -123,6 +127,7 @@
             for (int k = 0; k < arr.size(); ++k) {
                 out << arr[k] << " ";
             }
+            out << std::endl;
             out.close();
         }
 

@@ -127,8 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="B-Tree.cpp" />
     <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="splayTest.cpp" />
+    <ClCompile Include="SplayTree.cpp" />
     <ClCompile Include="testForTest.cpp" />
     <ClCompile Include="Tree_project.cpp" />
   </ItemGroup>

@@ -1,3 +1,2 @@
-﻿  Generator.cpp
-C:\Users\Student\Documents\repo\LSHPI_Tree_project\Tree_project\Tree_project\Generator.cpp(115,9): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  Tree_project.vcxproj -> C:\Users\Student\Documents\repo\LSHPI_Tree_project\Tree_project\x64\Debug\Tree_project.exe
+﻿  splayTest.cpp
+  Tree_project.vcxproj -> C:\Users\Student\Documents\LSHPI_Tree_project\Tree_project\x64\Debug\Tree_project.exe

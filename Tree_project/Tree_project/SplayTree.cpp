@@ -244,3 +244,21 @@ bool TreeInt::erase(int value) {
 int TreeInt::getRoot() {
     return root->value;
 }
+
+int TreeInt::height(NodeInt* current_node) {
+
+    if (current_node == NULL) {
+        return 0;
+    }
+
+    int leftHeight = height(current_node->l);
+    int rightHeight = height(current_node->r);
+
+    return 1 + std::max(leftHeight, rightHeight);
+}
+
+int TreeInt::getHeight() {
+
+    return height(root);
+
+}
